@@ -1,0 +1,42 @@
+.img1 img,
+.img2 img,
+.img3 img, 
+.img4 img, 
+.img5 img {
+    width: 300px; 
+    height: 150px;  
+    border: 3px solid transparent;  
+}
+.img5 img {
+    position: relative;
+    left: -25px;
+    border-color: white; 
+}
+
+.img4 img {
+    position: relative;
+    top:-50px;
+    left:-20px;
+    border-color: white; 
+}
+
+.img3 img {
+    position: relative;
+    left: -10px;
+    border-color: white; 
+}
+
+.img2 img {   
+    position: relative; 
+    top: -50px; 
+    border-color: white;  
+}
+
+.img1 img {
+    position: relative;
+    left: 15px;
+    border-color: white; 
+} 
+
+
+

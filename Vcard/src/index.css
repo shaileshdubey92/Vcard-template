@@ -1,0 +1,67 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0rem;
+  text-align: center;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.con1{
+  border: black;
+  background-image: linear-gradient(
+    to right,#d8c8f7,#80f9f9
+  );
+}
+
+.icon{
+  margin-left: 20px;
+  position: relative;
+  top: -10px;
+}
+
+/* //navbar
+ */
+
+
+ /* Navbar.css */
+
+ .navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: rgba(5, 4, 4, 0.7); 
+  width: 130px;
+  height: 100vh;
+  overflow: hidden;
+  transition: width 0.5s ease;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar li {
+  padding: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color:rgb(255, 255, 255);
+}
+
+.navbar.open {
+  width: 00px; /* Adjust the width when the navbar is open */
+}
+.navbarbutton{
+  position: fixed;
+  left: 0px;
+  top: 50%;
+  font-size: xx-large;
+
+}
+/* //name animation */
